@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EventRecords>
+    <EventRecord>
+        <RecordNumber>1</RecordNumber>
+        <Timestamp>133715965990890809</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;OXUqvSAMEventjxmlns5http://schemas.microsoft.com/win/2004/08/events/eventoTSystemAY{Provider6F=KNameX)GuidAMzaEventID'X)Qualifiers"VersiondLevelE{Task ?Opcode$fjKeywordsAP;TimeCreated'j&lt;{SystemTime.FEventRecordIDACorrelation\FFActivityIDmz5RelatedActivityIDAmExecutionHFFProcessID9ThreadID"aChannelBF;nComputerWIN-L66RV8ACFCQAB.SecurityfLUserID!F!4P 9mm Microsoft-Windows-Security-Auditing%TxTI&gt;;(SecurityT+fCnDEventDataAEoData%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA/!=NewProcessIdA3%=NewProcessNameA;-=TokenElevationTypeA)=ProcessIdA-=CommandLineA1#=TargetUserSidA3%=TargetUserNameA7)=TargetDomainNameA1#=TargetLogonIdA9+=ParentProcessNameA3%=MandatoryLabel--XRegistry%%1936--@H</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>2</RecordNumber>
+        <Timestamp>133715965990898980</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F}!4X $m Microsoft-Windows-Security-Auditing%TxTI&gt;;(SecurityIcIW^!A3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA1#=TargetUserSidA3%=TargetUserNameA7)=TargetDomainNameA1#=TargetLogonIdA5'=TargetProcessIdA9+=TargetProcessNameA)=ProcessIdA-=ProcessName----XRegistry</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>3</RecordNumber>
+        <Timestamp>133715965990899073</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5 m Microsoft-Windows-Security-Auditing%TxTI&gt;;(Securityz_&lt;3XjA3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA-=LoadOptionsA5'=AdvancedOptionsA;-=ConfigAccessPolicyA;-=RemoteEventLoggingA-=KernelDebugA1#=VsmLaunchTypeA-=TestSigningA1#=FlightSigningAC5=DisableIntegrityChecksAA3=HypervisorLoadOptionsA?1=HypervisorLaunchTypeA5'=HypervisorDebug---%%1843%%1846%%1843%%1843%%1848%%1843%%1843%%1843-%%1848%%1843</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>4</RecordNumber>
+        <Timestamp>133715965990975736</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!4P m Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security:--$C:\Windows\System32\smss.exe%%1936--@</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>5</RecordNumber>
+        <Timestamp>133715966012247752</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F)!4P NnMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security@:--4C:\Windows\System32\autochk.exe%%1936$--C:\Windows\System32\smss.exe@@</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>6</RecordNumber>
+        <Timestamp>133715966045047183</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F)!4P pMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security@:--hC:\Windows\System32\setupcl.exe%%1936$--C:\Windows\System32\smss.exe@@</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>7</RecordNumber>
+        <Timestamp>133715966047850398</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F#!4P qMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security::--xC:\Windows\System32\smss.exe%%1936$--C:\Windows\System32\smss.exe@@</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>8</RecordNumber>
+        <Timestamp>133715966049419160</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F%!4P ,qMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security&lt;:--C:\Windows\System32\csrss.exe%%1936x--C:\Windows\System32\smss.exe@@</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>9</RecordNumber>
+        <Timestamp>133715966050411920</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F#!4P ;qMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security::--C:\Windows\System32\smss.exe%%1936$--C:\Windows\System32\smss.exe@@</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>10</RecordNumber>
+        <Timestamp>133715966050458290</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F)!4P Z&lt;qMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security@:--C:\Windows\System32\wininit.exe%%1936x--C:\Windows\System32\smss.exe@@</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>11</RecordNumber>
+        <Timestamp>133715966050551928</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F%!4P x=qMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security&lt;:--C:\Windows\System32\csrss.exe%%1936--C:\Windows\System32\smss.exe@@</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>12</RecordNumber>
+        <Timestamp>133715966052071866</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F1!4P TqMicrosoft-Windows-Security-Auditing%TxTI&gt;;(SecurityB@--(C:\Windows\System32\services.exe%%1936--C:\Windows\System32\wininit.exe@H</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>13</RecordNumber>
+        <Timestamp>133715966052208453</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F+!4P EWqMicrosoft-Windows-Security-Auditing%TxTI&gt;;(SecurityB:--0C:\Windows\System32\winlogon.exe%%1936--C:\Windows\System32\smss.exe@H</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>14</RecordNumber>
+        <Timestamp>133715966052522697</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F+!4P [qMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security&lt;@--PC:\Windows\System32\lsass.exe%%1936--C:\Windows\System32\wininit.exe@H</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>15</RecordNumber>
+        <Timestamp>133715966057398903</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F9!0 wBqPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(SecurityL0LNcT P</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>16</RecordNumber>
+        <Timestamp>133715966057516832</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1  qPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Securityϲw`10ϲw`|XD'YRFA3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA1#=TargetUserSidA3%=TargetUserNameA7)=TargetDomainNameA1#=TargetLogonIdA)=LogonTypeA7)=LogonProcessNameAI;=AuthenticationPackageNameA5'=WorkstationNameA)=LogonGuidA=/=TransmittedServicesA1#=LmPackageNameA)=KeyLengthA)=ProcessIdA-=ProcessNameA)=IpAddressA#=IpPortA;-=ImpersonationLevelA=/=RestrictedAdminModeAC5=TargetOutboundUserNameAG9=TargetOutboundDomainNameA3%=VirtualAccountA=/=TargetLinkedLogonIdA1#=ElevatedToken--SYSTEMNT AUTHORITY-----------%%1843%%1842</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>17</RecordNumber>
+        <Timestamp>133715966060615332</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5&amp; VqPMicrosoft-Windows-Security-Auditing%TxTI&gt;;(SecurityK:cKGSvthA'=PuaCountA-=PuaPolicyId&lt;\</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>18</RecordNumber>
+        <Timestamp>133715966061934524</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F/!6{ wq%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;$5]E*y&lt;NBA3%=TargetUserNameA7)=TargetDomainNameA)=TargetSidA3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA1#=PrivilegeListA3%=SamAccountNameA+=SidHistory  Print OperatorsBuiltin &amp;MINWINPC$-Print Operators-H</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>19</RecordNumber>
+        <Timestamp>133715966061937159</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt; Print OperatorsBuiltin &amp;MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>20</RecordNumber>
+        <Timestamp>133715966061955283</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;**Remote Desktop UsersBuiltin +MINWINPC$-Remote Desktop Users-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>21</RecordNumber>
+        <Timestamp>133715966061956073</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;*Remote Desktop UsersBuiltin +MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>22</RecordNumber>
+        <Timestamp>133715966061959744</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ @q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;@@Network Configuration OperatorsBuiltin ,MINWINPC$-Network Configuration Operators- </XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>23</RecordNumber>
+        <Timestamp>133715966061960518</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 Fq%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;@Network Configuration OperatorsBuiltin ,MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>24</RecordNumber>
+        <Timestamp>133715966061964228</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;44Performance Monitor UsersBuiltin .MINWINPC$-Performance Monitor Users-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>25</RecordNumber>
+        <Timestamp>133715966061964940</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;4Performance Monitor UsersBuiltin .MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>26</RecordNumber>
+        <Timestamp>133715966061968352</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;,,Performance Log UsersBuiltin /MINWINPC$-Performance Log Users-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>27</RecordNumber>
+        <Timestamp>133715966061969041</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;,Performance Log UsersBuiltin /MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>28</RecordNumber>
+        <Timestamp>133715966061975605</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ 5q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;,,Distributed COM UsersBuiltin 2MINWINPC$-Distributed COM Users-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>29</RecordNumber>
+        <Timestamp>133715966061976359</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 'q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;,Distributed COM UsersBuiltin 2MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>30</RecordNumber>
+        <Timestamp>133715966061979706</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ :(q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;IIS_IUSRSBuiltin 8MINWINPC$-IIS_IUSRS-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>31</RecordNumber>
+        <Timestamp>133715966061980359</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 *q%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;IIS_IUSRSBuiltin 8MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>32</RecordNumber>
+        <Timestamp>133715966061983717</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ 7q%ffPT Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;00Cryptographic OperatorsBuiltin 9MINWINPC$-Cryptographic Operators-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>33</RecordNumber>
+        <Timestamp>133715966061984370</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 r:q%ffPT!Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;0Cryptographic OperatorsBuiltin 9MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>34</RecordNumber>
+        <Timestamp>133715966061985368</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6| X&gt;q%ffPT"Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security;R3];R]LD8A+=MemberNameA)=MemberSidA3%=TargetUserNameA7)=TargetDomainNameA)=TargetSidA3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA1#=PrivilegeList-IIS_IUSRSBuiltin 8MINWINPC$- </XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>35</RecordNumber>
+        <Timestamp>133715966061992140</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ Xq%ffPT#Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;$$Event Log ReadersBuiltin =MINWINPC$-Event Log Readers-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>36</RecordNumber>
+        <Timestamp>133715966061992815</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 o[q%ffPT$Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;$Event Log ReadersBuiltin =MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>37</RecordNumber>
+        <Timestamp>133715966061997619</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ 3nq%ffPT%Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;@@Certificate Service DCOM AccessBuiltin &gt;MINWINPC$-Certificate Service DCOM Access- </XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>38</RecordNumber>
+        <Timestamp>133715966062000347</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 xq%ffPT&amp;Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;@Certificate Service DCOM AccessBuiltin &gt;MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>39</RecordNumber>
+        <Timestamp>133715966062020378</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ q%ffPT'Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;44RDS Remote Access ServersBuiltin ?MINWINPC$-RDS Remote Access Servers-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>40</RecordNumber>
+        <Timestamp>133715966062021361</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 q%ffPT(Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;4RDS Remote Access ServersBuiltin ?MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>41</RecordNumber>
+        <Timestamp>133715966062026412</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ q%ffPT)Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;**RDS Endpoint ServersBuiltin @MINWINPC$-RDS Endpoint Servers-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>42</RecordNumber>
+        <Timestamp>133715966062027306</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 *q%ffPT*Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;*RDS Endpoint ServersBuiltin @MINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>43</RecordNumber>
+        <Timestamp>133715966062029931</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ kq%ffPT+Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;..RDS Management ServersBuiltin AMINWINPC$-RDS Management Servers-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>44</RecordNumber>
+        <Timestamp>133715966062030346</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 q%ffPT,Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;.RDS Management ServersBuiltin AMINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>45</RecordNumber>
+        <Timestamp>133715966062034444</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ q%ffPT-Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;..Hyper-V AdministratorsBuiltin BMINWINPC$-Hyper-V Administrators-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>46</RecordNumber>
+        <Timestamp>133715966062035470</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 q%ffPT.Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;.Hyper-V AdministratorsBuiltin BMINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>47</RecordNumber>
+        <Timestamp>133715966062043665</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ "q%ffPT/Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;HHAccess Control Assistance OperatorsBuiltin CMINWINPC$-Access Control Assistance Operators-0</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>48</RecordNumber>
+        <Timestamp>133715966062046104</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 +q%ffPT0Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;HAccess Control Assistance OperatorsBuiltin CMINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>49</RecordNumber>
+        <Timestamp>133715966062053232</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6{ pGq%ffPT1Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;00Remote Management UsersBuiltin DMINWINPC$-Remote Management Users-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>50</RecordNumber>
+        <Timestamp>133715966062054105</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 Jq%ffPT2Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;0Remote Management UsersBuiltin DMINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>51</RecordNumber>
+        <Timestamp>133715966062060926</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6w ~eq%ffPT3Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;&gt;&gt;Storage Replica AdministratorsBuiltin FMINWINPC$-Storage Replica Administrators- </XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>52</RecordNumber>
+        <Timestamp>133715966062061836</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 iq%ffPT4Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security$Ջ&lt;&gt;Storage Replica AdministratorsBuiltin FMINWINPC$---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>53</RecordNumber>
+        <Timestamp>133715966062072198</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6x q%ffPT5Microsoft-Windows-Security-Auditing%TxTI&gt;;(Security;R3]-jjͺǻԡNoneMINWINPCjjͺǻԡMINWINPC$-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>54</RecordNumber>
+        <Timestamp>133715966062089914</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6p q%ffPT6Microsoft-Windows-Security-Auditing%TxTI&gt;;(SecurityMl@;Ml@׵S^#NA3%=TargetUserNameA7)=TargetDomainNameA)=TargetSidA3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA1#=PrivilegeListA3%=SamAccountNameA-=DisplayNameA9+=UserPrincipalNameA1#=HomeDirectoryA'=HomePathA+=ScriptPathA-=ProfilePathA7)=UserWorkstationsA5'=PasswordLastSetA3%=AccountExpiresA3%=PrimaryGroupIdA=/=AllowedToDelegateToA-=OldUacValueA-=NewUacValueA;-=UserAccountControlA3%=UserParametersA+=SidHistoryA+=LogonHours&amp;&amp;&gt;WDAGUtilityAccountMINWINPCjjͺǻԡMINWINPC$-WDAGUtilityAccount%%1793-%%1793%%1793%%1793%%1793%%1793%%1794%%1794513-0x00x15%%2080%%2082%%2084%%1793-%%1797</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>55</RecordNumber>
+        <Timestamp>133715966062101471</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F}!6 q%ffPT7Microsoft-Windows-Security-Auditing%TxTI&gt;;(SecurityYnSYnh^䧠ԾA!=DummyA3%=TargetUserNameA7)=TargetDomainNameA)=TargetSidA3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA1#=PrivilegeListA3%=SamAccountNameA-=DisplayNameA9+=UserPrincipalNameA1#=HomeDirectoryA'=HomePathA+=ScriptPathA-=ProfilePathA7)=UserWorkstationsA5'=PasswordLastSetA3%=AccountExpiresA3%=PrimaryGroupIdA=/=AllowedToDelegateToA-=OldUacValueA-=NewUacValueA;-=UserAccountControlA3%=UserParametersA+=SidHistoryA+=LogonHours&amp;-WDAGUtilityAccountMINWINPCjjͺǻԡMINWINPC$-------------0x150x11%%2050---</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>56</RecordNumber>
+        <Timestamp>133715966063339465</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;FI!6 r%ffPT8Microsoft-Windows-Security-Auditing%TxTI&gt;;(SecurityYnS&amp;-WDAGUtilityAccountMINWINPCjjͺǻԡMINWINPC$-------------------`</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>57</RecordNumber>
+        <Timestamp>133715966063341554</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;FI!6 r%ffPT9Microsoft-Windows-Security-Auditing%TxTI&gt;;(SecurityYnS&amp;-WDAGUtilityAccountMINWINPCjjͺǻԡMINWINPC$-------------------`</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>58</RecordNumber>
+        <Timestamp>133715966063488247</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1 ,r%ffP:Microsoft-Windows-Security-Auditing%TxTI&gt;;(Securityϲw`1BMINWINPC$SYSTEMNT AUTHORITYAdvapi  Negotiate---(C:\Windows\System32\services.exe--%%1833---%%1843%%1842</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>59</RecordNumber>
+        <Timestamp>133715966063488507</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F3!1@ -r%ffP;Microsoft-Windows-Security-Auditing%TxTI&gt;;(SecurityxUxUNOTAkA:.A3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA1#=PrivilegeListSYSTEMNT AUTHORITYSeAssignPrimaryTokenPrivilegeSeTcbPrivilegeSeSecurityPrivilegeSeTakeOwnershipPrivilegeSeLoadDriverPrivilegeSeBackupPrivilegeSeRestorePrivilegeSeDebugPrivilegeSeAuditPrivilegeSeSystemEnvironmentPrivilegeSeImpersonatePrivilegeSeDelegateSessionUserImpersonatePrivilegeP</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>60</RecordNumber>
+        <Timestamp>133715966063544089</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;Fe!1( r%ffP&lt;Microsoft-Windows-Security-Auditing%TxTI&gt;;(SecurityWӤWY)lA3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA)=LogonGuidA3%=TargetUserNameA7)=TargetDomainNameA5'=TargetLogonGuidA7)=TargetServerNameA+=TargetInfoA)=ProcessIdA-=ProcessNameA)=IpAddressA#=IpPort"@MINWINPC$UMFD-0Font Driver HostlocalhostlocalhostC:\Windows\System32\wininit.exe--</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>61</RecordNumber>
+        <Timestamp>133715966063544666</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1 Zr%ffP=Microsoft-Windows-Security-Auditing%TxTI&gt;;(Securityϲw`1"@MINWINPC$`UMFD-0Font Driver HostaAdvapi  Negotiate---C:\Windows\System32\wininit.exe--%%1833---%%1842%%1843</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>62</RecordNumber>
+        <Timestamp>133715966065916482</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1 B:(r%ffP&gt;Microsoft-Windows-Security-Auditing%TxTI&gt;;(Securityϲw`1 BMINWINPC$NETWORK SERVICENT AUTHORITYAdvapi  Negotiate---(C:\Windows\System32\services.exe--%%1833---%%1843%%1842</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>63</RecordNumber>
+        <Timestamp>133715966065916540</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1@ |:(r%ffP?Microsoft-Windows-Security-Auditing%TxTI&gt;;(SecurityxU NETWORK SERVICENT AUTHORITYSeAssignPrimaryTokenPrivilegeSeAuditPrivilegeSeImpersonatePrivilege(</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>64</RecordNumber>
+        <Timestamp>133715966086615714</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F;!1( ds%ffP@Microsoft-Windows-Security-Auditing%TxTI&gt;;(SecurityWӤ"BMINWINPC$UMFD-1Font Driver Hostlocalhostlocalhost0C:\Windows\System32\winlogon.exe--X</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>65</RecordNumber>
+        <Timestamp>133715966086621704</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1 *ds%ffPAMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Securityϲw`1"BMINWINPC$`UMFD-1Font Driver HostAdvapi  Negotiate---0C:\Windows\System32\winlogon.exe--%%1833---%%1842%%1843</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>66</RecordNumber>
+        <Timestamp>133715966091634733</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F5!1( -s%ffPBMicrosoft-Windows-Security-Auditing%TxTI&gt;;(SecurityWӤBMINWINPC$DWM-1Window Managerlocalhostlocalhost0C:\Windows\System32\winlogon.exe--P</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>67</RecordNumber>
+        <Timestamp>133715966091640861</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1 s%ffPCMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Securityϲw`1BMINWINPC$ZDWM-1Window ManagerAdvapi  Negotiate---0C:\Windows\System32\winlogon.exe--%%1833---%%1842%%1842</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>68</RecordNumber>
+        <Timestamp>133715966091641244</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1 s%ffPDMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Securityϲw`1BMINWINPC$ZDWM-1Window ManagerAdvapi  Negotiate---0C:\Windows\System32\winlogon.exe--%%1833---%%1842%%1843</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>69</RecordNumber>
+        <Timestamp>133715966091641357</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1@ °s%ffPEMicrosoft-Windows-Security-Auditing%TxTI&gt;;(SecurityxUZDWM-1Window ManagerSeAssignPrimaryTokenPrivilegeSeAuditPrivilegeSeImpersonatePrivilege </XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>70</RecordNumber>
+        <Timestamp>133715966091641390</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1@ .°s%ffPFMicrosoft-Windows-Security-Auditing%TxTI&gt;;(SecurityxUfZDWM-1Window ManagerSeAssignPrimaryTokenPrivilegeSeAuditPrivilege</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>71</RecordNumber>
+        <Timestamp>133715966093965589</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1 9s%ffPGMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Securityϲw`1BMINWINPC$SYSTEMNT AUTHORITYAdvapi  Negotiate---(C:\Windows\System32\services.exe--%%1833---%%1843%%1842</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>72</RecordNumber>
+        <Timestamp>133715966093965666</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1@ b9s%ffPHMicrosoft-Windows-Security-Auditing%TxTI&gt;;(SecurityxUSYSTEMNT AUTHORITYSeAssignPrimaryTokenPrivilegeSeTcbPrivilegeSeSecurityPrivilegeSeTakeOwnershipPrivilegeSeLoadDriverPrivilegeSeBackupPrivilegeSeRestorePrivilegeSeDebugPrivilegeSeAuditPrivilegeSeSystemEnvironmentPrivilegeSeImpersonatePrivilegeSeDelegateSessionUserImpersonatePrivilege</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>73</RecordNumber>
+        <Timestamp>133715966096533722</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1 hs%ffPIMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Securityϲw`1BMINWINPC$LOCAL SERVICENT AUTHORITYAdvapi  Negotiate---(C:\Windows\System32\services.exe--%%1833---%%1843%%1842</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>74</RecordNumber>
+        <Timestamp>133715966096533866</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1@ jis%ffPJMicrosoft-Windows-Security-Auditing%TxTI&gt;;(SecurityxULOCAL SERVICENT AUTHORITYSeAssignPrimaryTokenPrivilegeSeAuditPrivilegeSeImpersonatePrivilege </XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>75</RecordNumber>
+        <Timestamp>133715966193320645</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5n By%ffPKMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security"*bkӤ"*b^}ku Hj^A3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA)=TargetSidA1#=AccessRemoved0MINWINPC$ "SeInteractiveLogonRight0</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>76</RecordNumber>
+        <Timestamp>133715966193360341</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5n y%ffPLMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security"*bk0MINWINPC$ ESeInteractiveLogonRight</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>77</RecordNumber>
+        <Timestamp>133715966193360364</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5n y%ffPMMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security"*bk(MINWINPC$ ESeNetworkLogonRight</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>78</RecordNumber>
+        <Timestamp>133715966193405663</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5n ߎy%ffPNMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security"*bk0MINWINPC$ GSeInteractiveLogonRight</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>79</RecordNumber>
+        <Timestamp>133715966193405700</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5n y%ffPOMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security"*bk(MINWINPC$ GSeNetworkLogonRight</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>80</RecordNumber>
+        <Timestamp>133715966193497495</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5m y%ffPPMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security|x+|x+Yɡ{j^A3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA)=TargetSidA1#=AccessGranted&lt;MINWINPC$  SeRemoteInteractiveLogonRight8</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>81</RecordNumber>
+        <Timestamp>133715966193563279</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5m y%ffPQMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security|x+(MINWINPC$ 'SeNetworkLogonRight</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>82</RecordNumber>
+        <Timestamp>133715966193563323</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5m y%ffPRMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security|x+$MINWINPC$ 'SeBatchLogonRight</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>83</RecordNumber>
+        <Timestamp>133715966193633263</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5m y%ffPSMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security|x+$MINWINPC$ /SeBatchLogonRight</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>84</RecordNumber>
+        <Timestamp>133715966193674826</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5n Jy%ffPTMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security"*bk0MINWINPC$ZSeInteractiveLogonRight</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>85</RecordNumber>
+        <Timestamp>133715966193699846</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5m y%ffPUMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security|x+&lt;MINWINPC$ +SeRemoteInteractiveLogonRight</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>86</RecordNumber>
+        <Timestamp>133715966193726476</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!5m ty%ffPVMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security|x+(MINWINPC$PSeServiceLogonRight</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>87</RecordNumber>
+        <Timestamp>133715966193790429</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6 my%ffPWMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security5}C&amp;5}&gt;.R@Cϐ&amp;A3%=TargetUserNameA7)=TargetDomainNameA)=TargetSidA3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA5'=CallerProcessIdA9+=CallerProcessNameBUsersBuiltin !MINWINPC$(C:\Windows\System32\services.exe(</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>88</RecordNumber>
+        <Timestamp>133715966193793107</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6| Sxy%ffPXMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security;R3]-UsersBuiltin !MINWINPC$-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>89</RecordNumber>
+        <Timestamp>133715966193797474</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!6| by%ffPYMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security;R3]-UsersBuiltin !MINWINPC$-</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>90</RecordNumber>
+        <Timestamp>133715966300078358</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F3!5 A%ffPZMicrosoft-Windows-Security-Auditing%TxTI&gt;;(Security&gt;%3]&gt;%ΨS7ؑA=/=DomainPolicyChangedA+=DomainNameA)=DomainSidA3%=SubjectUserSidA5'=SubjectUserNameA9+=SubjectDomainNameA3%=SubjectLogonIdA1#=PrivilegeListA3%=MinPasswordAgeA3%=MaxPasswordAgeA-=ForceLogoffA7)=LockoutThresholdAG9=LockoutObservationWindowA5'=LockoutDurationA;-=PasswordPropertiesA9+=MinPasswordLengthAA3=PasswordHistoryLengthA=/=MachineAccountQuotaA5'=MixedDomainModeAA3=DomainBehaviorVersionA3%=OemInformation Password PolicyMINWINPCjjͺǻԡMINWINPC$-----1P</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>91</RecordNumber>
+        <Timestamp>133715966321223271</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1 g_%ffP[Microsoft-Windows-Security-Auditing%TxTI&gt;;(Securityϲw`1BMINWINPC$SYSTEMNT AUTHORITYAdvapi  Negotiate---(C:\Windows\System32\services.exe--%%1833---%%1843%%1842</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>92</RecordNumber>
+        <Timestamp>133715966321223423</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1@ _%ffP\Microsoft-Windows-Security-Auditing%TxTI&gt;;(SecurityxUSYSTEMNT AUTHORITYSeAssignPrimaryTokenPrivilegeSeTcbPrivilegeSeSecurityPrivilegeSeTakeOwnershipPrivilegeSeLoadDriverPrivilegeSeBackupPrivilegeSeRestorePrivilegeSeDebugPrivilegeSeAuditPrivilegeSeSystemEnvironmentPrivilegeSeImpersonatePrivilegeSeDelegateSessionUserImpersonatePrivilege</XMLData>
+    </EventRecord>
+    <EventRecord>
+        <RecordNumber>93</RecordNumber>
+        <Timestamp>133715966321681309</Timestamp>
+        <EventData>EventData</EventData>
+        <Provider>Data</Provider>
+        <XMLData>O&amp;F!1 f%ffP]Microsoft-Windows-Security-Auditing%TxTI&gt;;(Securityϲw`1BMINWINPC$SYSTEMNT AUTHORITYAdvapi  Negotiate---(C:\Windows\System32\services.exe--%%1833---%%1843%%1842</XMLData>
+    </EventRecord>
+</EventRecords>

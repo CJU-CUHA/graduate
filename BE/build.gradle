@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = '21'  // JDK 21로 설정
+targetCompatibility = '21'  // JDK 21로 설정
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.commons:commons-text:1.9' // StringEscapeUtils 의존성
+    implementation 'org.w3c.dom:w3c-dom:2.0.0' // DOM 의존성
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'Main'  // 메인 클래스 설정
+        )
+    }
+}
+
+task run(type: JavaExec) {
+    main = 'com.example.Main'  // 실행할 메인 클래스 설정
+    classpath = sourceSets.main.runtimeClasspath
+}

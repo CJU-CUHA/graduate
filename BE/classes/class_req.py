@@ -4,11 +4,10 @@ from typing import List
 class join(BaseModel):
     username: str
     password: str
-
+    email   : str
 class login(BaseModel):
     username: str
     password: str
-    email   : str
 
 class File(BaseModel):
     case_id : int

@@ -1,4 +1,4 @@
-```
+
 import xml.etree.ElementTree as ET
 from Evtx.Evtx import Evtx
 import json
@@ -63,5 +63,3 @@ if __name__ == "__main__":
         json.dump(events, f, ensure_ascii=False, indent=2)
 
     print(f"\n총 {len(events)}개의 이벤트가 '{output_file}'에 저장되었습니다.")
-
-```

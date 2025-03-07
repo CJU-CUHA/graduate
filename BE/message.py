@@ -54,7 +54,7 @@ def parse_evtx(file_path):
 
 if __name__ == "__main__":
     # EVTX 파일의 경로 (필요에 따라 경로 수정)
-    evtx_file = "Security.evtx"
+    evtx_file = "BE\\app\\evtx\\Security.evtx"
     events = parse_evtx(evtx_file)
 
     # 파싱된 이벤트 데이터를 JSON 파일로 저장

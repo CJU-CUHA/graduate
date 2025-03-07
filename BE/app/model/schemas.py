@@ -14,7 +14,7 @@ class User(BaseModel):
     password: str
     
     class Config:
-        orm_mode = True  # ORM 모델과 Pydantic 모델 간의 호환성을 위해 필요
+        from_attributes = True
 
 # Create와 Update 스키마 (사건 생성용)
 class CaseCreate(BaseModel):
@@ -31,7 +31,7 @@ class Case(BaseModel):
     case_owner: str
 
     class Config:
-        orm_mode = True  # ORM 모델과 Pydantic 모델 간의 호환성을 위해 필요
+        from_attributes = True  # ORM 모델과 Pydantic 모델 간의 호환성을 위해 필요
 
 # 파일 업로드와 관련된 스키마
 class CreateFile(BaseModel):
@@ -41,7 +41,7 @@ class CreateFile(BaseModel):
     # _case: int  # 외래 키로 사용하는 case ID (필요에 따라 필드명 변경 가능)
 
     class Config:
-        orm_mode = True  # ORM 모델과 Pydantic 모델 간의 호환성을 위해 필요
+        from_attributes = True  # ORM 모델과 Pydantic 모델 간의 호환성을 위해 필요
 
 # 실제 데이터베이스 모델을 위한 `File` 모델
 class File(BaseModel):
@@ -51,4 +51,7 @@ class File(BaseModel):
     # case_id: int  # 외래 키 필드 (사건과 연결)
 
     class Config:
-        orm_mode = True  # ORM 모델과 Pydantic 모델 간의 호환성을 위해 필요
+        from_attributes = True  # ORM 모델과 Pydantic 모델 간의 호환성을 위해 필요
+
+class Message(BaseModel):
+    message: str

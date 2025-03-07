@@ -6,10 +6,14 @@ from sqlalchemy.sql import and_
 # 항목 생성
 async def create_User(db: AsyncSession, User: schemas.UserCreate):
     db_User = models.User(username=User.username,email=User.email,password=User.password)
-    db.add(db_User)
-    await db.commit()  # 커밋
-    await db.refresh(db_User)  # 객체 새로고침
-    return db_User
+    if (await db.execute(select(models.User).filter(
+        and_(models.User.email == User.email,models.User.username== User.username)))):
+        return "existed user"
+    else:
+        db.add(db_User)
+        await db.commit()  # 커밋
+        await db.refresh(db_User)  # 객체 새로고침
+        return "sign up succesfull"
 
 # 모든 항목 조회
 async def get_Users(db: AsyncSession, skip: int = 0, limit: int = 10):
@@ -17,8 +21,8 @@ async def get_Users(db: AsyncSession, skip: int = 0, limit: int = 10):
     return result.scalars().all()
 
 # 특정 항목 조회
-async def get_User(db: AsyncSession, User_id):
-    result = await db.execute(select(models.User).filter(models.User.id == User_id))
+async def get_User(db: AsyncSession, User_username):
+    result = await db.execute(select(models.User).filter(models.User.username == User_username))
     return result.scalars().first()
 
 # 로그인
@@ -125,3 +129,11 @@ async def delete_Case(db: AsyncSession, Case_id: int):
         await db.delete(db_Case)
         await db.commit()
     return db_Case
+
+
+async def exist_user(db: AsyncSession, email: str):
+    # 사용자가 존재하는지 확인하는 쿼리
+    stmt = select(models.User).filter(models.User.email == email)
+    result = await db.execute(stmt)
+    # 결과에서 첫 번째 항목을 가져옴 (사용자가 있으면 첫 번째 사용자 반환)
+    return result.scalars().first()

@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Depends, UploadFile,File,HTTPException,status,Response,Security,Header
 
-from routers import user,case,file
+from routers import user,case,file,mapping,proc
 from fastapi.security import APIKeyHeader
 
 from datetime import datetime, timedelta, timezone
@@ -16,7 +16,8 @@ app = FastAPI()
 app.include_router(user.router)
 app.include_router(case.router)
 app.include_router(file.router)
-
+app.include_router(proc.router)
+app.include_router(mapping.router)
 # ✅ 보호된 엔드포인트 (Swagger에서 JWT 토큰 입력 가능)
 http_bearer=HTTPBearer()
 @app.get("/items/")

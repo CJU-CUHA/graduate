@@ -1,57 +1,62 @@
 from pydantic import BaseModel
-from sqlalchemy import Column, Integer, String, DateTime, func, LargeBinary, ForeignKey
-from sqlalchemy.orm import relationship
-import datetime
-
-# Create and Update 스키마 (유저 생성용)
+from datetime import datetime
+from sqlalchemy import JSON
+# 유저 생성용 스키마
 class UserCreate(BaseModel):
     username: str
     password: str
     email: str
-# 응답 스키마 (유저 조회용)
+
+# 유저 조회용 스키마
 class User(BaseModel):
     email: str
     password: str
-    
+
     class Config:
         from_attributes = True
 
-# Create와 Update 스키마 (사건 생성용)
+# 사건 생성용 스키마
 class CaseCreate(BaseModel):
     case_name: str
     case_info: str
     case_type: str
     case_owner: str
 
-# 응답 스키마 (사건 조회용)
-class Case(BaseModel):
+# 사건 조회용 스키마
+class FindCase(BaseModel):  # findCase -> FindCase (클래스명은 보통 대문자로 시작)
+    case_id: int
     case_name: str
     case_info: str
     case_type: str
     case_owner: str
+    created_at: datetime  # DateTime -> datetime.datetime으로 수정
 
     class Config:
-        from_attributes = True  # ORM 모델과 Pydantic 모델 간의 호환성을 위해 필요
+        from_attributes = True
 
-# 파일 업로드와 관련된 스키마
+# 파일 업로드 관련 스키마
 class CreateFile(BaseModel):
     pc_name: str
-    file_path: str
-      # 파일을 바이너리 형태로 저장 (Pydantic에서는 `bytes`로 처리)
-    # _case: int  # 외래 키로 사용하는 case ID (필요에 따라 필드명 변경 가능)
+    file_path: str  # 바이너리 저장이 아니라 경로 저장 방식 유지
 
     class Config:
-        from_attributes = True  # ORM 모델과 Pydantic 모델 간의 호환성을 위해 필요
+        from_attributes = True
 
 # 실제 데이터베이스 모델을 위한 `File` 모델
 class File(BaseModel):
     id: int
     pc_name: str
-    files: bytes  # Pydantic에서 바이너리 데이터는 `bytes`로 처리됨
-    # case_id: int  # 외래 키 필드 (사건과 연결)
+    files: bytes  # 파일을 직접 저장하는 경우, 보통 LargeBinary를 사용
 
     class Config:
-        from_attributes = True  # ORM 모델과 Pydantic 모델 간의 호환성을 위해 필요
+        from_attributes = True
 
+# 메시지 응답 스키마
 class Message(BaseModel):
     message: str
+
+class Logs(BaseModel):
+    alias: str
+    channel:str
+    event_data:JSON
+    computer:str

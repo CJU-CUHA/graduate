@@ -3,6 +3,7 @@ from sqlalchemy.future import select
 from sqlalchemy.orm import Session
 from model import models, schemas
 from sqlalchemy.sql import and_
+from sqlalchemy import JSON
 # 항목 생성
 async def create_User(db: AsyncSession, User: schemas.UserCreate):
     db_User = models.User(username=User.username,email=User.email,password=User.password)
@@ -137,3 +138,12 @@ async def exist_user(db: AsyncSession, email: str):
     result = await db.execute(stmt)
     # 결과에서 첫 번째 항목을 가져옴 (사용자가 있으면 첫 번째 사용자 반환)
     return result.scalars().first()
+
+async def create_Case(db: AsyncSession, Case: schemas.CaseCreate):
+    db_Case = models.Case(case_name=Case.case_name,case_info=Case.case_info, case_type=Case.case_type, case_owner=Case.case_owner)
+    db.add(db_Case)
+    await db.commit()  # 커밋
+    await db.refresh(db_Case)  # 객체 새로고침
+    # 세션 닫기
+    await db.close()
+    return db_Case

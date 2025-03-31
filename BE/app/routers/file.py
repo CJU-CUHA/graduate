@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, UploadFile,File,status,APIRouter
+from fastapi import FastAPI, Depends, UploadFile,File,status,APIRouter,Form
 from fastapi.security import HTTPAuthorizationCredentials,HTTPBearer
 from sqlalchemy.ext.asyncio import AsyncSession
 from model import crud, models, schemas, database
@@ -9,10 +9,12 @@ import datetime
 import secrets
 import json
 import jwt
+import evtxParser_alpha
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_DIR = os.path.join(BASE_DIR,'static/')
 IMG_DIR = os.path.join(STATIC_DIR,'images/')
-SERVER_IMG_DIR = os.path.join('http://localhost:8000/','static/','images/')
+SERVER_IMG_DIR = os.path.join('http://localhost:8000/','static/','evtx/')
 f=open(os.path.join(BASE_DIR,"key.json"),"r")
 jwt_password=json.load(f)['jwt_key']
 
@@ -39,9 +41,11 @@ async def get_User_by_token(db: AsyncSession = Depends(database.get_db),token:HT
 
 # 파일 업로드
 @router.post("/upload")
-async def file_upload(files: List[UploadFile] = File(), db: AsyncSession = Depends(database.get_db), token: HTTPAuthorizationCredentials = Depends(http_bearer)):
+async def file_upload(files: List[UploadFile] = File(), db: AsyncSession = Depends(database.get_db),
+                       token: HTTPAuthorizationCredentials = Depends(http_bearer),
+                       pc_name:str= Form(),case_id:int = Form()):
     result = await get_User_by_token(db=db, token=token)
-    if result:
+    if isinstance(result,models.User):
         try:
             file_urls = []
             for file in files:
@@ -54,14 +58,14 @@ async def file_upload(files: List[UploadFile] = File(), db: AsyncSession = Depen
                 with open(file_location, "wb+") as file_object:
                     file_object.write(file.file.read())
                     file_urls.append(SERVER_IMG_DIR + saved_file_name)
-                
+                events=evtxParser_alpha.parse_evtx(file_location)
                 # 파일 정보 생성
                 file_json = {
-                    "pc:name": "asdf",  # 여기 필요한 데이터로 수정하세요
+                    "pc:name": pc_name,  # 여기 필요한 데이터로 수정하세요
                     "file_path": file_urls
                 }
                 crud.create_File(File=file_json, db=db)
-            
+
             return JSONResponse(
                 content={"message": "Request was successful"},
                 status_code=status.HTTP_200_OK
